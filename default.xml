@@ -2,11 +2,14 @@
 <manifest>
 	<remote  name="yocto"
 		 fetch="git://git.yoctoproject.org" />
+	<remote  name="oe"
+		 fetch="git://git.openembedded.org" />
 
 	<default revision="master"
 		 sync-j="4" />
 
 	<project remote="yocto" revision="sumo" name="poky" />
 	<project remote="yocto" revision="sumo" name="meta-raspberrypi" />
+	<project remote="oe"    revision="sumo" name="meta-openembedded" />
 
 </manifest>
