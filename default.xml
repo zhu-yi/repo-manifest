@@ -8,8 +8,8 @@
 	<default revision="master"
 		 sync-j="4" />
 
-	<project remote="yocto" revision="sumo" name="poky" />
-	<project remote="yocto" revision="sumo" name="meta-raspberrypi" />
-	<project remote="oe"    revision="sumo" name="meta-openembedded" />
+	<project remote="yocto" revision="thud" name="poky" />
+	<project remote="yocto" revision="thud" name="meta-raspberrypi" />
+	<project remote="oe"    revision="thud" name="meta-openembedded" />
 
 </manifest>
