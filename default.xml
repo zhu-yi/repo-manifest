@@ -40,6 +40,12 @@
 	/>
 	<project
 		remote="github"
+		revision="thud"
+		name="meta-qt5/meta-qt5"
+		path="meta-qt5"
+	/>
+	<project
+		remote="github"
 		revision="master"
 		name="zhu-yi/meta-lms"
 		path="meta-lms"
